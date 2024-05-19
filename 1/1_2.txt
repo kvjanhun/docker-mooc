@@ -1,0 +1,8 @@
+/// 1.2
+
+ 00:15:40 | kvjanhun: 1$>  docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+ 00:15:47 | kvjanhun: 1$>  docker image ls
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+
+===

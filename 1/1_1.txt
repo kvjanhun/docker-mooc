@@ -1,0 +1,9 @@
+/// 1.1
+
+ 00:10:18 | kvjanhun: 1$>  docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                      PORTS     NAMES
+cf6cfee7a549   nginx     "/docker-entrypoint.…"   42 seconds ago   Exited (0) 13 seconds ago             reverent_jepsen
+7b2b81ea7f8d   nginx     "/docker-entrypoint.…"   44 seconds ago   Up 43 seconds               80/tcp    happy_swirles
+9231ba3fa740   nginx     "/docker-entrypoint.…"   6 minutes ago    Exited (0) 13 seconds ago             relaxed_lumiere
+
+===

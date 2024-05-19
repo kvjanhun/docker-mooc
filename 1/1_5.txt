@@ -1,0 +1,22 @@
+/// 1.5
+
+ 21:11:06 | kvjanhun: 1$>  docker image ls
+REPOSITORY                          TAG               IMAGE ID       CREATED       SIZE
+ubuntu                              latest            bf3dc08bfed0   2 weeks ago   76.2MB
+fav_distro                          jammy_jellyfish   52882761a72a   3 weeks ago   77.9MB
+ubuntu                              22.04             52882761a72a   3 weeks ago   77.9MB
+devopsdockeruh/simple-web-service   ubuntu            4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine            fd312adc88e0   3 years ago   15.7MB
+ 21:11:47 | kvjanhun: 1$>  docker run -dit --name sws-exercise devopsdockeruh/simple-web-service:alpine
+36f0f6b8ebf52e7d1e060aa6e9318341e9b9beaf5068135d87c1f33a9c414c9a
+ 21:12:01 | kvjanhun: 1$>  docker exec sws-exercise tail -f ./text.log
+2024-05-18 18:12:20 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-18 18:12:22 +0000 UTC
+2024-05-18 18:12:24 +0000 UTC
+2024-05-18 18:12:26 +0000 UTC
+2024-05-18 18:12:28 +0000 UTC
+2024-05-18 18:12:30 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy
+
+===
